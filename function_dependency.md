@@ -72,8 +72,6 @@
 ### Core Interface Headers
 
 - [io_uring.h](dependency_results/io_uring.h.md)
-- [opdef.h](dependency_results/opdef.h.md)
-- [register.h](dependency_results/register.h.md)
 
 ### Resource Management Headers
 
@@ -86,52 +84,24 @@
 
 - [rw.h](dependency_results/rw.h.md)
 - [kbuf.h](dependency_results/kbuf.h.md)
-- [splice.h](dependency_results/splice.h.md)
-- [fs.h](dependency_results/fs.h.md)
 - [net.h](dependency_results/net.h.md)
-- [zcrx.h](dependency_results/zcrx.h.md)
 
 ### Event Management Headers
 
 - [poll.h](dependency_results/poll.h.md)
-- [epoll.h](dependency_results/epoll.h.md)
 - [timeout.h](dependency_results/timeout.h.md)
 - [napi.h](dependency_results/napi.h.md)
 - [notif.h](dependency_results/notif.h.md)
 
-### Synchronization Headers
-
-- [futex.h](dependency_results/futex.h.md)
-- [eventfd.h](dependency_results/eventfd.h.md)
-- [waitid.h](dependency_results/waitid.h.md)
-- [sync.h](dependency_results/sync.h.md)
-
 ### Command and Extension Headers
 
-- [uring_cmd.h](dependency_results/uring_cmd.h.md)
-- [msg_ring.h](dependency_results/msg_ring.h.md)
+- [uring_cmd.h](dependency_results/io_uring.h.md)
 - [io-wq.h](dependency_results/io-wq.h.md)
-
-### File Operation Headers
-
-- [openclose.h](dependency_results/openclose.h.md)
-- [statx.h](dependency_results/statx.h.md)
-- [truncate.h](dependency_results/truncate.h.md)
-- [xattr.h](dependency_results/xattr.h.md)
-- [advise.h](dependency_results/advise.h.md)
 
 ### Memory Management Headers
 
-- [memmap.h](dependency_results/memmap.h.md)
 - [slist.h](dependency_results/slist.h.md)
 
 ### Runtime and Process Management Headers
 
 - [tctx.h](dependency_results/tctx.h.md)
-- [sqpoll.h](dependency_results/sqpoll.h.md)
-- [nop.h](dependency_results/nop.h.md)
-
-### Debugging and Monitoring Headers
-
-- [fdinfo.h](dependency_results/fdinfo.h.md)
-- [cancel.h](dependency_results/cancel.h.md)

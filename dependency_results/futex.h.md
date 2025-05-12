@@ -1,4 +1,0 @@
-# futex.h
-
-| Library | Function utilized | Time Used |
-| - | - | - |
