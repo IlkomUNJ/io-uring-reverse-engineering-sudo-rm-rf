@@ -1,0 +1,40 @@
+# openclose.c
+
+| Library | Function utilized | Time Used |
+| - | - | - |
+| - | io_kiocb_to_cmd | 10 |
+| - | force_o_largefile | 1 |
+| - | READ_ONCE | 8 |
+| - | u64_to_user_ptr | 2 |
+| - | getname | 1 |
+| - | IS_ERR | 2 |
+| - | PTR_ERR | 2 |
+| - | rlimit | 1 |
+| - | io_openat_force_async | 1 |
+| - | build_open_how | 1 |
+| - | __io_openat_prep | 2 |
+| - | copy_struct_from_user | 1 |
+| - | build_open_flags | 1 |
+| - | WARN_ON_ONCE | 1 |
+| - | __get_unused_fd_flags | 1 |
+| - | do_filp_open | 1 |
+| - | put_unused_fd | 1 |
+| - | fd_install | 1 |
+| - | io_fixed_fd_install | 1 |
+| - | putname | 2 |
+| - | req_set_fail | 3 |
+| - | io_req_set_res | 3 |
+| - | io_openat2 | 1 |
+| - | io_ring_submit_lock | 1 |
+| - | io_fixed_fd_remove | 1 |
+| - | io_ring_submit_unlock | 1 |
+| - | __io_close_fixed | 1 |
+| - | io_close_fixed | 1 |
+| - | spin_lock | 1 |
+| - | files_lookup_fd_locked | 1 |
+| - | io_is_uring_fops | 1 |
+| - | spin_unlock | 3 |
+| - | file_close_fd_locked | 1 |
+| - | flush | 1 |
+| - | filp_close | 1 |
+| - | receive_fd | 1 |

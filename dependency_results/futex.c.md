@@ -1,0 +1,39 @@
+# futex.c
+
+| Library | Function utilized | Time Used |
+| - | - | - |
+| - | io_alloc_cache_init | 1 |
+| - | io_alloc_cache_free | 1 |
+| - | hlist_del_init | 2 |
+| - | io_req_task_complete | 1 |
+| - | io_tw_lock | 2 |
+| - | io_cache_free | 1 |
+| - | __io_futex_complete | 2 |
+| - | io_kiocb_to_cmd | 8 |
+| - | futex_unqueue_multiple | 1 |
+| - | io_req_set_res | 8 |
+| - | kfree | 4 |
+| - | test_bit | 1 |
+| - | test_and_set_bit_lock | 1 |
+| - | futex_unqueue | 1 |
+| - | io_futexv_claim | 2 |
+| - | io_req_task_work_add | 3 |
+| - | io_cancel_remove | 1 |
+| - | io_cancel_remove_all | 1 |
+| - | u64_to_user_ptr | 2 |
+| - | READ_ONCE | 4 |
+| - | futex2_to_flags | 1 |
+| - | futex_flags_valid | 1 |
+| - | futex_validate_input | 2 |
+| - | kcalloc | 1 |
+| - | futex_parse_waitv | 1 |
+| - | io_ring_submit_lock | 2 |
+| - | futex_wait_multiple_setup | 3 |
+| - | io_ring_submit_unlock | 4 |
+| - | req_set_fail | 3 |
+| - | __set_current_state | 1 |
+| - | hlist_add_head | 2 |
+| - | io_cache_alloc | 1 |
+| - | futex_wait_setup | 1 |
+| - | futex_queue | 1 |
+| - | futex_wake | 1 |
