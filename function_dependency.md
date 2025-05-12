@@ -80,7 +80,7 @@
 - [refs.h](dependency_results/refs.h.md)
 - [rsrc.h](dependency_results/rsrc.h.md)
 - [filetable.h](dependency_results/filetable.h.md)
-- [alloc_cache.h](dependency_results/filetable.h.md)
+- [alloc_cache.h](dependency_results/alloc_cache.h.md)
 
 ### I/O Processing Headers
 
