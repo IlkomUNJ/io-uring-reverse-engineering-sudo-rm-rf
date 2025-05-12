@@ -2,4 +2,4 @@
 
 | Library | Function utilized | Time Used |
 | - | - | - |
-| - | atomic_inc | 1 |
+| include/linux/atomic/atomic-instrumented.h | atomic_inc | 1 |
