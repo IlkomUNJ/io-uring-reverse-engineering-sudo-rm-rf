@@ -1,0 +1,40 @@
+# openclose.c
+
+| Library | Function utilized | Time Used |
+| - | - | - |
+| include/linux/io_uring_types.h | io_kiocb_to_cmd | 10 |
+| include/linux/fcntl.h | force_o_largefile | 1 |
+| tools/virtio/ringtest/main.h | READ_ONCE | 8 |
+| include/linux/kernel.h | u64_to_user_ptr | 2 |
+| include/linux/fs.h | getname | 1 |
+| fs/xfs/xfs_trace.h | IS_ERR | 2 |
+| include/linux/err.h | PTR_ERR | 2 |
+| include/linux/sched/signal.h | rlimit | 1 |
+| io_uring/openclose.c | io_openat_force_async | 1 |
+| fs/open.c | build_open_how | 1 |
+| io_uring/openclose.c | __io_openat_prep | 2 |
+| include/linux/uaccess.h | copy_struct_from_user | 1 |
+| fs/open.c | build_open_flags | 1 |
+| tools/testing/scatterlist/linux/mm.h | WARN_ON_ONCE | 1 |
+| fs/file.c | __get_unused_fd_flags | 1 |
+| fs/namei.c | do_filp_open | 1 |
+| fs/file.c | put_unused_fd | 1 |
+| fs/file.c | fd_install | 1 |
+| io_uring/filetable.c | io_fixed_fd_install | 1 |
+| fs/namei.c | putname | 2 |
+| io_uring/io_uring.h | req_set_fail | 3 |
+| io_uring/io_uring.h | io_req_set_res | 3 |
+| io_uring/openclose.c | io_openat2 | 1 |
+| io_uring/io_uring.h | io_ring_submit_lock | 1 |
+| io_uring/filetable.c | io_fixed_fd_remove | 1 |
+| io_uring/io_uring.h | io_ring_submit_unlock | 1 |
+| io_uring/openclose.c | __io_close_fixed | 1 |
+| io_uring/openclose.c | io_close_fixed | 1 |
+| include/linux/spinlock.h | spin_lock | 1 |
+| include/linux/fdtable.h | files_lookup_fd_locked | 1 |
+| include/linux/io_uring.h | io_is_uring_fops | 1 |
+| include/linux/spinlock.h | spin_unlock | 3 |
+| fs/file.c | file_close_fd_locked | 1 |
+| fs/fat/fat.h | flush | 1 |
+| fs/open.c | filp_close | 1 |
+| fs/file.c | receive_fd | 1 |

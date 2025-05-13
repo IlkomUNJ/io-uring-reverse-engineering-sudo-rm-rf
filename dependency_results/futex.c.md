@@ -1,0 +1,39 @@
+# futex.c
+
+| Library | Function utilized | Time Used |
+| - | - | - |
+| io_uring/alloc_cache.c | io_alloc_cache_init | 1 |
+| io_uring/alloc_cache.c | io_alloc_cache_free | 1 |
+| include/linux/list.h | hlist_del_init | 2 |
+| io_uring/io_uring.c | io_req_task_complete | 1 |
+| io_uring/io_uring.h | io_tw_lock | 2 |
+| io_uring/alloc_cache.h | io_cache_free | 1 |
+| io_uring/futex.c | __io_futex_complete | 2 |
+| include/linux/io_uring_types.h | io_kiocb_to_cmd | 8 |
+| kernel/futex/waitwake.c | futex_unqueue_multiple | 1 |
+| io_uring/io_uring.h | io_req_set_res | 8 |
+| mm/slub.c | kfree | 4 |
+| include/linux/bitops.h | test_bit | 1 |
+| internal | test_and_set_bit_lock | 1 |
+| kernel/futex/core.c | futex_unqueue | 1 |
+| io_uring/futex.c | io_futexv_claim | 2 |
+| io_uring/io_uring.h | io_req_task_work_add | 3 |
+| io_uring/cancel.c | io_cancel_remove | 1 |
+| io_uring/cancel.c | io_cancel_remove_all | 1 |
+| include/linux/kernel.h | u64_to_user_ptr | 2 |
+| tools/virtio/linux/compiler.h | READ_ONCE | 4 |
+| kernel/futex/futex.h | futex2_to_flags | 1 |
+| kernel/futex/futex.h | futex_flags_valid | 1 |
+| kernel/futex/futex.h | futex_validate_input | 2 |
+| include/linux/slab.h | kcalloc | 1 |
+| kernel/futex/syscalls.c | futex_parse_waitv | 1 |
+| io_uring/io_uring.h | io_ring_submit_lock | 2 |
+| kernel/futex/waitwake.c | futex_wait_multiple_setup | 3 |
+| io_uring/io_uring.h | io_ring_submit_unlock | 4 |
+| io_uring/io_uring.h | req_set_fail | 3 |
+| include/linux/sched.h | __set_current_state | 1 |
+| include/linux/list.h | hlist_add_head | 2 |
+| io_uring/alloc_cache.h | io_cache_alloc | 1 |
+| kernel/futex/waitwake.c | futex_wait_setup | 1 |
+| kernel/futex/futex.h | futex_queue | 1 |
+| kernel/futex/waitwake.c | futex_wake | 1 |
